@@ -7,7 +7,7 @@
 Create
 
 ```bash
-flutter create .
+flutter create flutter_app_2
 ```
 
 Run 
