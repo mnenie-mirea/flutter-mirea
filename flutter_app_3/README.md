@@ -18,3 +18,7 @@ flutter run
 ```
 
 ### Screens
+
+<img src="/-static/practice_3/products.png" />
+&nbsp;
+<img src="/-static/practice_3/product.png" />
