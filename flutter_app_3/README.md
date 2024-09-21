@@ -19,6 +19,6 @@ flutter run
 
 ### Screens
 
-<img src="/-static/practice_3/products.png" />
+<img src="/-static/practice_3/all_products.png" />
 &nbsp;
 <img src="/-static/practice_3/product.png" />

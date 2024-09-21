@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Каталог товаров'),
+        title: const Text('Популярные товары'),
       ),
       backgroundColor: Colors.white,
       body: ListView.builder(
