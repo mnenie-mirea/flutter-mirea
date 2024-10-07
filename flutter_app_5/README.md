@@ -19,7 +19,7 @@ flutter run
 
 ### Screens
 
-<img src="/-static/practice_5/all.png" />
+<img src="/-static/practice_5/products.png" />
 &nbsp;
 <img src="/-static/practice_5/fav.png" />
 &nbsp;
