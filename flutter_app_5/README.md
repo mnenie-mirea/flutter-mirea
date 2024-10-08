@@ -25,4 +25,4 @@ flutter run
 &nbsp;
 <img src="/-static/practice_5/product.png" />
 &nbsp;
-<img src="/-static/practice_5/profile.jpg" />
+<img src="/-static/practice_5/user.png" />

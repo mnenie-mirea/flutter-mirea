@@ -51,6 +51,22 @@ class ProfilePage extends StatelessWidget {
                   color: Color.fromARGB(255, 51, 51, 51),
                 ),
               ),
+              const SizedBox(height: 30),
+              const Text(
+                "pochta@gmail.com",
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 51, 51, 51),
+                ),
+              ),
+              const SizedBox(height: 30),
+              const Text(
+                "+7 999 999 99 99",
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 3, 3, 3),
+                ),
+              ),
             ],
           ),
         ),
