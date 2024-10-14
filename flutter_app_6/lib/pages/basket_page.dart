@@ -6,14 +6,14 @@ import 'package:flutter_app_5/mocks/products_mock.dart';
 import 'package:flutter_app_5/models/cart_item.dart';
 import 'package:flutter_app_5/pages/product_page.dart';
 
-class ShoppingCartScreen extends StatefulWidget {
-  const ShoppingCartScreen({super.key});
+class BasketPage extends StatefulWidget {
+  const BasketPage({super.key});
 
   @override
-  State<ShoppingCartScreen> createState() => _ShoppingCartScreenState();
+  State<BasketPage> createState() => _BasketPageState();
 }
 
-class _ShoppingCartScreenState extends State<ShoppingCartScreen> {
+class _BasketPageState extends State<BasketPage> {
   final List<CartItemModel> _items = items;
 
   @override
