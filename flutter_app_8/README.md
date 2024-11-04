@@ -28,7 +28,7 @@ go run main.go
 
 <img src="/-static/practice_8/hoppscotch.png" />
 
-На фронте использовал [dio](https://pub.dev/packages/dio) для запросов на бэк а так же написал отдельный сервис для продуктов с отдельными методами: [product_service.dart](/lib/services/product_service.dart)
+На фронте использовал [dio](https://pub.dev/packages/dio) для запросов на бэк а так же написал отдельный сервис для продуктов с отдельными методами: [product_service.dart](/flutter_app_8/lib/services/product_service.dart)
 
 `getProducts`, `getProductById`, `createProduct`, `updateProductById`, `deleteProduct`
 
