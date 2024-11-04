@@ -1,16 +1,40 @@
-# flutter_app_8
+# Программирование корпоративных систем
+Дисциплина: **Программирование корпоративных систем** <br>
+Семестр: 5 <br>
+Выполнил студент **ЭФБО-01-22 Пешков А.Н.** <br>
 
-A new Flutter project.
+### Usage
 
-## Getting Started
+Create
 
-This project is a starting point for a Flutter application.
+```bash
+flutter create flutter_app_8
+```
 
-A few resources to get you started if this is your first Flutter project:
+Run Frontend
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter emulators --launch Pixel 4 API 35
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run Backend
+
+```bash
+go run main.go
+```
+
+Протестил API через Hoppccortch
+
+<img src="/-static/practice_8/hoppscotch.png" />
+
+На фронте использовал [dio](https://pub.dev/packages/dio) для запросов на бэк а так же написал отдельный сервис для продуктов с отдельными методами: [product_service.dart](./services/product_service.dart)
+
+`getProducts`, `getProductById`, `createProduct`, `updateProductById`, `deleteProduct`
+
+### Screens
+
+<img src="/-static/practice_8/products.png" />
+&nbsp;
+<img src="/-static/practice_8/product.png" />
+&nbsp;
